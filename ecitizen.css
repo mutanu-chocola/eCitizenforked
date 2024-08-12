@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+    gap: 30px;
+    margin: 15px auto;
+    align-items: center;
+   
+}
+
+.image{
+    width: 25%;
+}
+.nav{
+    width: 50%;
+}
+.nav ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(104, 102, 102);
+    font-weight: 530;
+}
+.nav a:hover{
+    color: black;
+}
+.sign{
+    display: flex;
+    gap: 25px;
+    width: 30%;
+    align-items: center;
+}
+.favicons{
+    display: flex;
+    gap:20px ;
+    float: right;
+}
+#submit{
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    transition: all ease-in-out 0.5s;
+}
+#submit:hover{
+    background-color: rgb(238, 236, 236);
+    border-radius: 20px;
+}
+.fa-solid{
+    padding: 5px;
+    transition: all ease-in-out 0.5s;
+    
+}
+
+.fa-solid:hover{
+    background-color: rgb(238, 236, 236);
+    border-radius: 20px;
+}
+#register{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    transition: all ease-in-out 0.5s;
+    background-color: rgb(12, 188, 12);
+   
+}
+#register:hover{
+    background-color:rgb(5, 105, 5);
+    border-radius: 20px;
+}
+
