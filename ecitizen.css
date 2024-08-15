@@ -188,5 +188,28 @@ header{
     background-color: rgb(188, 184, 184);
     border-radius: 20px;
 }
-
+.agencies{
+    background-color: aqua;
+    width: 100%;
+}
+.view{
+    display: flex;
+    justify-content: space-between;
+}
+.first-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 30px ;
+}
+.child{
+    display: flex;
+   
+    gap: 40px;
+}
+.icon-anchor{
+    width: 100%;
+}
+.icon-anchor img{
+    width: 30%;
+}
 
